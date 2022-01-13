@@ -20,7 +20,7 @@ body {
 header {
     background-color: #111774;
     color: white;
-    height: 10%;
+    height: 10vh;
 }
 
 #header-container {
@@ -54,12 +54,8 @@ a {
 
 /*main*/
 
-main {
-    height: 100%;
-}
-
 #first-section {
-    height: 45%;
+    height: 45vh;
     background-color: #373d8f;
     color: white;
     display: flex;
@@ -99,7 +95,7 @@ main {
 }
 
 #second-section {
-    height: 50%;
+    height: 50vh;
     color: #111774;
     display: flex;
     flex-direction: column;
@@ -145,7 +141,7 @@ main {
 }
 
 #third-section {
-    height: 30%;
+    height: 40vh;
 }
 
 #text-container-ts {
@@ -154,14 +150,22 @@ main {
 }
 
 #text-container-ts p {
-    font-size: auto;
+    font-size: 26px;
     height: 50%;
+    padding: 5% 15%;
+    font-style: italic;
+}
+
+#signature {
+    font-size: 16px;
+    font-style: normal;
+    float: right;
 }
 
 /*footer*/
 
 footer {
-    height: 5%;
+    height: 5vh;
     width: 100%;
     background-color: thistle;
     color: white;
